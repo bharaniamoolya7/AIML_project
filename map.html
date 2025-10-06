@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RainSense</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+<h2 style="text-align:center;">🌧️ Safe Route Finder</h2>
+<div id="map" style="height:500px;width:90%;margin:auto;"></div>
+
+<div class="message" id="safeMessage"></div>
+
+<div class="directions-container" style="margin:20px;">
+  <p id="directionPrompt"></p>
+  <button id="yesDir" style="display:none;">Yes</button>
+  <div id="directionsList" style="text-align:center;"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
